@@ -12,6 +12,7 @@
 				"-Wpedantic",
 				"-g",
 				"${workspaceFolder}/src/*",
+				"-lraylib",
 				"-o",
 				"${workspaceFolder}/bin/main"
 			],
